@@ -28,7 +28,7 @@ jobs:
           --health-retries 5
         ports:
           # Maps tcp port 5432 on service container to the host
-          - 6432:5432
+          - 5432:6432
 
     steps:
       - name: Check out code into the Go module directory
